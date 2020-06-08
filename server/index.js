@@ -1,9 +1,11 @@
 const express = require('express');
-const App = express();
+const app = express();
 
 
-App.use('/',express.static('../public'));
+app.use(express.static('public'));
 
-App.listen(3001, () => {
+
+
+app.listen(3001, () => {
   console.log('app on...');
 })
