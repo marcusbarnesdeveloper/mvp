@@ -38,7 +38,7 @@ class App extends React.Component{
           <input type='text' placeholder="Enter a Food" value={this.state.food} name = 'food'onChange={this.onChange}/>
           <FaSistrix className="search-icon" onClick={this.onClick}/>
         </div>
-        <Recipe recipes={this.state.recipes}/>
+        {(this.state.recipes.length > 1) ?  <Recipe recipes={this.state.recipes}/>: <div></div>}
       </div>
     )
   }

@@ -33,3 +33,31 @@ input{
 input:focus{
   outline: none;
 }
+
+.recipe-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 60px 0;
+}
+
+.recipe-card{
+  width: 180px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.recipe-card_img{
+  width: 180px;
+  object-fit: cover;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
