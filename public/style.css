@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+}
+
+.main-container{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.search-icon{
+  color: green;
+  vertical-align: middle;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.input-container{
+  margin: 0 auto;
+  border: 1px lightgrey solid;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-radius: 5px;
+}
+input{
+  border: none;
+  width: 90%;
+}
+
+input:focus{
+  outline: none;
+}
